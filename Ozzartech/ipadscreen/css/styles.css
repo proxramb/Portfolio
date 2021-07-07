@@ -85,13 +85,14 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 .shape {
       font-family: var(--bs-font-sans-serif);
     text-align: center;
-background:  linear-gradient(0deg , rgba(3,78,136,0.7),rgba(3,78,136,0.7)) 30px 0 no-repeat;
+background:  #212529;
 background-size:340px 100%, 100% 100%;
+    border-color: rgba(3,78,136,0.7);
   width:400px;
   height:60px;
   line-height:60px;
   padding:0 20px;
-  color:black;
+  color:white;
   margin:20px auto;
   position:relative;
 }
@@ -7052,7 +7053,7 @@ textarea.form-control-lg {
 }
 
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .mb-auto {
@@ -7132,7 +7133,7 @@ textarea.form-control-lg {
 }
 
 .px-4 {
-  padding-right: 1.5rem !important;
+  padding-right: .5rem !important;
   padding-left: 1.5rem !important;
 }
 
